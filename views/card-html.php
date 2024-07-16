@@ -1,6 +1,6 @@
 <?php
-  $info = "<h1>Something New</h1>";
-  $info .= "
+  $main = "<h1>Something New</h1>";
+  $main .= "
     <section>
       <h2>Card Title</h2>
       <h3>Subtitle</h3>
