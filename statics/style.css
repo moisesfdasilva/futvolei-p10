@@ -47,15 +47,68 @@ body {
 }
 
 .nav-menu {
-  background-color: red;
+  background-color: #A6CADA;
   z-index: 2;
   position: fixed;
-  width: 95%;
-  height: 95%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
-  margin: 10px;
-  margin-right: 15px;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu-li form button[type=submit] {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  background-color: transparent;
+  border: none;
+  border: 2px solid black;
+  width: 190px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-menu-li form button[type=submit] p {
+  padding-left: 10px;
+}
+
+.nav-menu-li form button[type=submit] img {
+  height: 37px;
+}
+
+.nav-menu-li a {
+  margin-bottom: 35px;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: #3F95C5;
+  border: 2px solid black;
+
+  width: 335px;
+}
+
+.nav-menu-li a p {
+  font-size: 14px;
+  color: black;
+  padding-top: 0;
+  padding-bottom: 0;
 }

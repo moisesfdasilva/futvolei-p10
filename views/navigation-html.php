@@ -4,23 +4,54 @@
     $main = "
       <nav class='nav-menu'>
         <ul>
-          <li>
+          <li class='nav-menu-li'>
             <form action=$_SERVER[PHP_SELF] method='post'>
-              <input
-                type='submit'
-                name='menuOff'
-                value='MENU'
-              >
+              <button type='submit' name='menuOff'>
+                <img class='logo' src='statics/img/icon-close.png'>
+                <p>FECHAR MENU</p>
+              </button>
             </form>
           </li>
-          <li><a>PÁGINA INICIAL</a></li>
-          <li><a>AULAS</a></li>
-          <li><a>TORNEIOS</a></li>
-          <li><a>VENDA/ALUGUEL</a></li>
-          <li><a>SUPORTE TÉCNICO</a></li>
-          <li><a>INICIAR SESSÃO</a></li>
-          <li><a>CADASTRAR</a></li>
-          <li><a>CONTATO</a></li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>PÁGINA INICIAL</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>AULAS</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>TORNEIOS</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>VENDA/ALUGUEL</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>SUPORTE TÉCNICO</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>INICIAR SESSÃO</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>CADASTRAR</p>
+            </a>
+          </li>
+          <li class='nav-menu-li'>
+            <a href='index.php'>
+              <p>CONTATOS</p>
+            </a>
+          </li>
         </ul>
       </nav>";
   }
