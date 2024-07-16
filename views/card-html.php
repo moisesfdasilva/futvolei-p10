@@ -1,5 +1,5 @@
 <?php
-  $main = "<h1>Something New</h1>";
+  $main .= "<h1>Something New</h1>";
   $main .= "
     <section>
       <h2>Card Title</h2>
