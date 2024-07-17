@@ -38,12 +38,14 @@ body {
   text-decoration: none;
   padding: 16px 20px;
   font-weight: 450;
+  font-size: 14px;
 }
 
 .nav-top form input[type=submit]:hover:not(.active) {
   background-color: #FFCB00;
   opacity: 0.71;
   color: #009440;
+  cursor: pointer;
 }
 
 .nav-menu {
@@ -72,12 +74,10 @@ body {
 .nav-menu-li form button[type=submit] {
   margin-top: 60px;
   margin-bottom: 60px;
-
   background-color: transparent;
   border: none;
   border: 2px solid black;
   width: 190px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -85,24 +85,23 @@ body {
 }
 
 .nav-menu-li form button[type=submit] p {
-  padding-left: 10px;
+  padding-left: 18px;
+  font-size: 14px;
 }
 
-.nav-menu-li form button[type=submit] img {
-  height: 37px;
+.nav-menu-li form button[type=submit] span {
+  padding-left: 10px;
+  font-size: 32px;
 }
 
 .nav-menu-li a {
   margin-bottom: 35px;
   text-decoration: none;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   background-color: #3F95C5;
   border: 2px solid black;
-
   width: 335px;
 }
 
@@ -111,4 +110,13 @@ body {
   color: black;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.nav-menu-li form button[type=submit]:hover:not(.active),
+.nav-menu-li a:hover:not(.active),
+.nav-menu-li a:hover:not(.active) p {
+  background-color: #FFCB00;
+  opacity: 0.71;
+  color: #009440;
+  cursor: pointer;
 }

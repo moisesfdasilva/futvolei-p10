@@ -7,7 +7,7 @@
           <li class='nav-menu-li'>
             <form action=$_SERVER[PHP_SELF] method='post'>
               <button type='submit' name='menuOff'>
-                <img class='logo' src='statics/img/icon-close.png'>
+                <span>✕</span>
                 <p>FECHAR MENU</p>
               </button>
             </form>
