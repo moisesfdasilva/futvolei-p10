@@ -25,7 +25,7 @@
             </a>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
+            <a href='index.php?page=tournament'>
               <p>TORNEIOS</p>
             </a>
           </li>
