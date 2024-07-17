@@ -8,6 +8,7 @@
   include_once "controllers/home.php";
   $pageData->setContent($header);
   $pageData->appendContent($main);
+  $pageData->appendContent($footer);
   include_once "views/page.php";
   echo $page;
 ?>

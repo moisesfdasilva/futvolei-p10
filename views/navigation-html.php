@@ -1,5 +1,6 @@
 <?php
   $isMenuClicked = isset($_POST['menuOn']);
+  $main = '';
   if ($isMenuClicked) {
     $main = "
       <nav class='nav-menu'>
