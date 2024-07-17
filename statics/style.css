@@ -1,7 +1,12 @@
 /* FIRST MOBILE, 430 x 932 px */
 body {
-  background-color: beige;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  top: 0;
+  padding-top: 30px;
 }
 
 .header {
@@ -76,7 +81,7 @@ body {
   margin-bottom: 60px;
   background-color: transparent;
   border: none;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 190px;
   display: flex;
   flex-direction: row;
@@ -101,7 +106,7 @@ body {
   flex-direction: row;
   justify-content: center;
   background-color: #3F95C5;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 335px;
 }
 
@@ -119,4 +124,41 @@ body {
   opacity: 0.71;
   color: #009440;
   cursor: pointer;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 16px;
+}
+
+.main-card-img {
+  height: 90px;
+}
+
+.main-card-div1 {
+  margin-left: 5px;
+}
+
+.main-card-div2 {
+ margin-left: 5px;
+}
+
+.main-card-div2 h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.main-card-div2 h4 {
+  font-size: 14px;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+
+.main-card-div2 p {
+  font-size: 12px;
 }
