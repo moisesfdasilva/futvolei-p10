@@ -1,12 +1,13 @@
 <?php
   $isMenuClicked = isset($_POST['menuOn']);
   $main = '';
+
   if ($isMenuClicked) {
     $main = "
       <nav class='nav-menu'>
         <ul>
           <li class='nav-menu-li'>
-            <form action=$_SERVER[PHP_SELF] method='post'>
+            <form action=index.php?page=$controller method='post'>
               <button type='submit' name='menuOff'>
                 <span>✕</span>
                 <p>FECHAR MENU</p>
@@ -14,13 +15,13 @@
             </form>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
+            <a href='index.php?page=home'>
               <p>PÁGINA INICIAL</p>
             </a>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
-              <p>AULAS</p> 
+            <a href='index.php?page=class'>
+              <p>AULAS</p>
             </a>
           </li>
           <li class='nav-menu-li'>
