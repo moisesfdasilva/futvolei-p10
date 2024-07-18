@@ -50,7 +50,7 @@
             </a>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
+            <a href='index.php?page=contact'>
               <p>CONTATOS</p>
             </a>
           </li>
