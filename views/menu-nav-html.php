@@ -45,7 +45,7 @@
             </a>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
+            <a href='index.php?page=register'>
               <p>CADASTRAR</p>
             </a>
           </li>
