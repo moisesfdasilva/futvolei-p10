@@ -30,12 +30,12 @@
             </a>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
+            <a href='index.php?page=rent-sell'>
               <p>VENDA/ALUGUEL</p>
             </a>
           </li>
           <li class='nav-menu-li'>
-            <a href='index.php'>
+            <a href='index.php?page=support'>
               <p>SUPORTE TÉCNICO</p>
             </a>
           </li>
