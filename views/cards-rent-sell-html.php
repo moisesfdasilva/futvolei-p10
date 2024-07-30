@@ -1,27 +1,25 @@
 <?php
   $main .= "
     <main>
-      <h1>Vendas e Aluguel</h1>";
+      <section class='rent-main'>
+        <h1>Vendas e Aluguel</h1>";
 
   for ($i = 1; $i <= 8; $i++) {
     $main .= "
-      <section class='rent-sell-card'>
+      <section class='rent-card'>
         <div> 
           <img class='main-card-img' src='statics/img/product-01.png'>
         </div>
         <div> 
           <p>Rede de Vôlei Gismar</p>
-          <div>
-            <p>compra: R$ 499,00</p>
-            <p>-</p><p>_____</p><p>+</p>
-            <p>aluguel: R$ 499,00</p>
-            <p>-</p><p>_____</p><p>+</p>
-          </div>
+          <p>compra: R$ 499,00 (-)_____(+)</p>
+          <p>aluguel: R$ 59,00 (-)_____(+)</p>
         </div>
       </section>";
   }
 
   $main .= "
+    </section>
       <section>
         <ul>
           <li>Rede de Vôlei Gismar ________ R$ 499,00</li>
