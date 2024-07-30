@@ -123,7 +123,9 @@ main {
 .nav-menu-li a:hover:not(.active),
 .nav-menu-li a:hover:not(.active) p,
 .class-form input[type=submit]:hover:not(.active),
-.tourn-form input[type=submit]:hover:not(.active) {
+.tourn-form input[type=submit]:hover:not(.active),
+.rent-div-input button:hover:not(.active),
+.rent-form input[type=submit]:hover:not(.active) {
   background-color: #FFCB00;
   opacity: 0.71;
   color: #009440;
@@ -188,7 +190,9 @@ main {
 .tourn-main,
 .tourn-form,
 .tourn-article,
-.rent-main {
+.rent-main,
+.rent-brief,
+.rent-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -201,7 +205,8 @@ main {
   padding: 35px;
 }
 
-.class-card {
+.class-card,
+.rent-card {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -234,8 +239,24 @@ main {
   height: 30px;
 }
 
+.rent-div-input button {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.rent-div-input button p {
+  font-weight: bold;
+}
+
 .class-form-radio,
-.tourn-form-radio {
+.tourn-form-radio,
+.rent-form-radio {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -245,14 +266,16 @@ main {
 }
 
 .class-form-radio input[type=radio],
-.tourn-form-radio input[type=radio] {
+.tourn-form-radio input[type=radio],
+.rent-form-radio input[type=radio] {
   margin-left: 15px;
   background-color: #3F95C5;
   border: 1px solid black;
 }
 
 .class-form input[type=submit],
-.tourn-form input[type=submit] {
+.tourn-form input[type=submit],
+.rent-form input[type=submit] {
   margin-top: 15px;
   margin-bottom: 30px;
   width: 55vb;
@@ -268,17 +291,20 @@ main {
   width: 200px;
 }
 
-.tourn-article p {
+.tourn-article p,
+.rent-brief div {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 55vb;
 }
 
-.rent-card {
+.rent-div-input {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 55vb;
-  padding-bottom: 15px;
+}
+
+.rent-form {
+  padding-top: 30px;
 }

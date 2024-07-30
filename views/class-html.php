@@ -27,7 +27,7 @@
           <label for='type'>Feminino</label>
           <input type='radio' name='type' value='male'>
           <label for='type'>Masculino</label>
-          <input type='radio' name='type' value='both'>
+          <input type='radio' name='type' value='mixed'>
           <label for='type'>Misto</label>
         </div>
         <div class='class-form-input'>
