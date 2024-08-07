@@ -1,9 +1,9 @@
 <?php
   $header = "
     <header class='header'>
-      <img class='logo' src='statics/img/logo.png'>
+      <img class='logo' src='statics/icon/logo.png'>
       <nav class='nav-top'>
-        <form action=$_SERVER[PHP_SELF] method='post'>
+        <form action=index.php?page=$controller method='post'>
           <input
             type='submit'
             name='menuOn'

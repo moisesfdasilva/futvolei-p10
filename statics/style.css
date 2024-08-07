@@ -121,7 +121,11 @@ main {
 
 .nav-menu-li form button[type=submit]:hover:not(.active),
 .nav-menu-li a:hover:not(.active),
-.nav-menu-li a:hover:not(.active) p {
+.nav-menu-li a:hover:not(.active) p,
+.class-form input[type=submit]:hover:not(.active),
+.tourn-form input[type=submit]:hover:not(.active),
+.rent-div-input button:hover:not(.active),
+.rent-form input[type=submit]:hover:not(.active) {
   background-color: #FFCB00;
   opacity: 0.71;
   color: #009440;
@@ -179,4 +183,128 @@ main {
   font-size: 12px;
   padding-top: 2px;
   padding-bottom: 8px;
+}
+
+.class-main,
+.class-form,
+.tourn-main,
+.tourn-form,
+.tourn-article,
+.rent-main,
+.rent-brief,
+.rent-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.class-main h1,
+.tourn-main h1, 
+.rent-main {
+  padding: 35px;
+}
+
+.class-card,
+.rent-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 55vb;
+  padding-bottom: 15px;
+}
+
+.class-img,
+.tourn-img {
+  height: 130px;
+  width: 192px;
+  border-radius: 60px;
+}
+
+.class-form-input,
+.tourn-form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 55vb;
+  padding-bottom: 15px;
+}
+
+.class-form-input input,
+.tourn-form-input input {
+  margin-top: 15px;
+  width: 55vb;
+  height: 30px;
+}
+
+.rent-div-input button {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.rent-div-input button p {
+  font-weight: bold;
+}
+
+.class-form-radio,
+.tourn-form-radio,
+.rent-form-radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 55vb;
+  padding-bottom: 15px;
+}
+
+.class-form-radio input[type=radio],
+.tourn-form-radio input[type=radio],
+.rent-form-radio input[type=radio] {
+  margin-left: 15px;
+  background-color: #3F95C5;
+  border: 1px solid black;
+}
+
+.class-form input[type=submit],
+.tourn-form input[type=submit],
+.rent-form input[type=submit] {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 55vb;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.tourn-img {
+  height: 150px;
+  width: 200px;
+}
+
+.tourn-article p,
+.rent-brief div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 55vb;
+}
+
+.rent-div-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rent-form {
+  padding-top: 30px;
 }
