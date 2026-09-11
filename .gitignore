@@ -1,0 +1,83 @@
+### Laravel Core ###
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Configurações de ambiente e chaves secretas
+.env
+.env.backup
+.env.production
+auth.json
+
+# Armazenamento e logs do framework
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+### Laravel Breeze & Vite (Frontend) ###
+# Ignora os arquivos gerados pelo Vite em produção
+/public/build
+/public/hot
+
+### Laravel Sail (Docker) ###
+# Caso você use arquivos de customização do Docker locais
+/.docker/
+# Dados persistentes de bancos de dados locais (se mapeados fora do volume nomeado)
+.docker-data/
+
+### Ferramentas de Teste e Qualidade ###
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+
+### IDEs e Sistema Operacional ###
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# INITIAL TO UPLOAD
+routes/auth.php
+routes/console.php
+
+resources/css
+resources/js
+resources/views/auth
+resources/views/components
+resources/views/layouts
+resources/views/profile
+resources/views/dashboard.blade.php
+resources/views/welcome.blade.php
+
+.editorconfig
+.env.example
+.npmrc
+.gitattributes
+
+AGENTS.md
+artisan
+compose.yaml
+composer.lock
+database
+package-lock.json
+phpunit.xml
+public
+tailwind.config.js
+vendor
+CLAUDE.md
+app
+bootstrap
+composer.json
+config
+node_modules
+package.json
+postcss.config.js
+storage
+tests
+vite.config.js
+# END TO UPLOAD
