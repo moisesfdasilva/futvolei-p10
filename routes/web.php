@@ -8,7 +8,11 @@ Route::get('/', function () {
 });
 
 Route::get('/std', function () {
-    return view('standard');
+    return view('stdMain');
+});
+
+Route::get('/std2', function () {
+    return view('stdDetails');
 });
 
 Route::get('/dashboard', function () {
