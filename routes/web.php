@@ -15,6 +15,10 @@ Route::get('/std2', function () {
     return view('stdDetails');
 });
 
+Route::get('/stdnot', function () {
+    return view('stdNotFound');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
