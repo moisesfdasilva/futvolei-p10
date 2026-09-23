@@ -157,7 +157,7 @@
                 </div>
                 <form method="POST" action="/" class="mb-12 px-12 w-full">
                     <label class="pt-1 pb-2 text-lg">
-                        ACESSE A SUA CONTA
+                        DADOS PESSOAIS
                     </label>
                     <input type="email" id="email" name="email">
                     <div class="flex items-center border-b border-black py-2 mt-8">
@@ -178,20 +178,39 @@
                             name="password"
                         >
                     </div>
+                    <div class="flex items-center border-b border-black py-2 mt-8">
+                        <input
+                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
+                            type="text"
+                            placeholder="NOME"
+                            aria-label="name"
+                            name="name"
+                        >
+                    </div>
+                    <div class="flex items-center border-b border-black py-2 mt-8">
+                        <input
+                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
+                            type="text"
+                            placeholder="SOBRENOME"
+                            aria-label="lastName"
+                            name="lastName"
+                        >
+                    </div>
+                    <div class="flex items-center border-b border-black py-2 mt-8">
+                        <input
+                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
+                            type="text"
+                            placeholder="TELEFONE"
+                            aria-label="telephone"
+                            name="telephone"
+                        >
+                    </div>
                     <button
                         type="submit"
                         class="p-2 mt-12 text-center border border-black border-solid w-full bg-[#FFFFFF] hover:bg-blue-950"
                     >
-                        INICIAR SESSÃO
+                        CRIAR CONTA
                     </button>
-                    <p class="mt-2">Esqueceu sua senha de acesso?</p>
-                    <p class="mt-14">PRECISA DE UMA CONTA?</p>
-                    <a 
-                        href="/std"
-                        class="p-2 mt-6 text-center border border-black border-solid block w-full bg-[#FFFFFF] hover:bg-blue-950"
-                    >
-                        REGISTRE-SE
-                    </a>
                 </form>
             </main>
 

@@ -23,6 +23,18 @@ Route::get('/stdinit', function () {
     return view('stdInit');
 });
 
+Route::get('/stdreg', function () {
+    return view('stdRegister');
+});
+
+Route::get('/stdtec', function () {
+    return view('stdTechnicalSupport');
+});
+
+Route::get('/stdctt', function () {
+    return view('stdContactUs');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

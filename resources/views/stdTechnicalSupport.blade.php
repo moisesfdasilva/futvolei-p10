@@ -147,52 +147,42 @@
                 </div>
             </nav>
 
-            <main class="flex-grow flex flex-col p-2 content-start w-full md:w-4/5 min-[905px]:w-[724px] mx-auto bg-[#FFFFFF]">
+            <main class="flex-grow flex flex-col p-2 content-start w-full md:w-4/5 min-[1500px]:w-[1200px] mx-auto bg-[#FFFFFF]">
+
+                <h1 class="ml-6 pt-2 pb-2 text-2xl">
+                    Suporte Técnico
+                </h1>
+                <h2 class="ml-6 pt-2 pb-6 text-xl">
+                    Resolva seus problemas entrando em contato conosco, pelo nosso suporte técnico virtual web  ou através do Whatsapp.
+                </h2>
                 <div class="flex justify-center items-center">
                     <img
-                        src="/images/logo.png"
+                        src="/images/smartphone.png"
                         alt="fut-p10"
-                        class="mt-14 pt-2 pb-12 h-auto w-1/2"
+                        class="pt-2 pb-8 h-auto w-4/5 md:w-[615px]"
                     />
                 </div>
-                <form method="POST" action="/" class="mb-12 px-12 w-full">
-                    <label class="pt-1 pb-2 text-lg">
-                        ACESSE A SUA CONTA
-                    </label>
-                    <input type="email" id="email" name="email">
-                    <div class="flex items-center border-b border-black py-2 mt-8">
-                        <input
-                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
-                            type="email"
-                            placeholder="E-MAIL"
-                            aria-label="email"
-                            name="email"
-                        >
-                    </div>
-                    <div class="flex items-center border-b border-black py-2 mt-8">
-                        <input
-                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
-                            type="password"
-                            placeholder="SENHA"
-                            aria-label="password"
-                            name="password"
-                        >
-                    </div>
-                    <button
-                        type="submit"
-                        class="p-2 mt-12 text-center border border-black border-solid w-full bg-[#FFFFFF] hover:bg-blue-950"
-                    >
-                        INICIAR SESSÃO
-                    </button>
-                    <p class="mt-2">Esqueceu sua senha de acesso?</p>
-                    <p class="mt-14">PRECISA DE UMA CONTA?</p>
-                    <a 
-                        href="/std"
-                        class="p-2 mt-6 text-center border border-black border-solid block w-full bg-[#FFFFFF] hover:bg-blue-950"
-                    >
-                        REGISTRE-SE
-                    </a>
-                </form>
+                <div class="mb-6 ml-6">
+                    <p class="pb-4">
+                        Como tenho acesso ao suporte técnico?
+                    </p>
+                    <p class="pb-4">
+                        É super fácil e rápido ter o nosso suporte. 
+                        Você pode acessar o Técnico Virtual direto no seu navegador. 
+                        Basta fazer login.
+                    </p>
+                    <p>
+                        Ou se preferir pode acessar o Técnico Virtual via Whatsapp.
+                    </p>
+                </div>
+                <div class="flex flex-row mb-6 ml-6">
+                    <img src="/images/chat.png" alt="chat" class="h-12 w-12"/>
+                    <p class="p-2">Técnico Virtual Web</p>
+                </div>
+                <div class="flex flex-row mb-12 ml-6">
+                    <img src="/images/whatsapp.png" alt="whatsapp" class="h-12 w-12"/>
+                    <p class="p-2">Whatsapp</p>
+                </div>
             </main>
 
             <footer class="bg-[#3F95C5] py-6 text-center">

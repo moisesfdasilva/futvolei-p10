@@ -148,17 +148,12 @@
             </nav>
 
             <main class="flex-grow flex flex-col p-2 content-start w-full md:w-4/5 min-[905px]:w-[724px] mx-auto bg-[#FFFFFF]">
-                <div class="flex justify-center items-center">
-                    <img
-                        src="/images/logo.png"
-                        alt="fut-p10"
-                        class="mt-14 pt-2 pb-12 h-auto w-1/2"
-                    />
-                </div>
                 <form method="POST" action="/" class="mb-12 px-12 w-full">
-                    <label class="pt-1 pb-2 text-lg">
-                        ACESSE A SUA CONTA
-                    </label>
+                    <div class="flex justify-center items-center mt-6">
+                        <label class="text-lg">
+                            CONTATOS
+                        </label>
+                    </div>
                     <input type="email" id="email" name="email">
                     <div class="flex items-center border-b border-black py-2 mt-8">
                         <input
@@ -172,27 +167,49 @@
                     <div class="flex items-center border-b border-black py-2 mt-8">
                         <input
                             class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
-                            type="password"
-                            placeholder="SENHA"
-                            aria-label="password"
-                            name="password"
+                            type="text"
+                            placeholder="NOME"
+                            aria-label="name"
+                            name="name"
+                        >
+                    </div>
+                    <div class="flex items-center border-b border-black py-2 mt-8">
+                        <input
+                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
+                            type="text"
+                            placeholder="SOBRENOME"
+                            aria-label="lastName"
+                            name="lastName"
+                        >
+                    </div>
+                    <div class="flex items-center border-b border-black py-2 mt-8">
+                        <input
+                            class="appearance-none bg-transparent border-none w-full text-gray-700 leading-tight focus:outline-none"
+                            type="text"
+                            placeholder="TEXTO"
+                            aria-label="text"
+                            name="text"
                         >
                     </div>
                     <button
                         type="submit"
                         class="p-2 mt-12 text-center border border-black border-solid w-full bg-[#FFFFFF] hover:bg-blue-950"
                     >
-                        INICIAR SESSÃO
+                        ENVIAR
                     </button>
-                    <p class="mt-2">Esqueceu sua senha de acesso?</p>
-                    <p class="mt-14">PRECISA DE UMA CONTA?</p>
-                    <a 
-                        href="/std"
-                        class="p-2 mt-6 text-center border border-black border-solid block w-full bg-[#FFFFFF] hover:bg-blue-950"
-                    >
-                        REGISTRE-SE
-                    </a>
                 </form>
+                <div class="flex flex-row mb-6 ml-12">
+                    <img src="/images/whatsapp.png" alt="whatsapp" class="h-12 w-12"/>
+                    <p class="p-2">(21) 94848-8409</p>
+                </div>
+                <div class="flex flex-row mb-6 ml-12">
+                    <img src="/images/instagram.png" alt="instagram" class="h-12 w-12"/>
+                    <p class="p-2">CT_FTVP10</p>
+                </div>
+                <div class="flex flex-row mb-12 ml-12">
+                    <img src="/images/twitter.png" alt="twitter" class="h-12 w-12"/>
+                    <p class="p-2">FTVP10</p>
+                </div>
             </main>
 
             <footer class="bg-[#3F95C5] py-6 text-center">
