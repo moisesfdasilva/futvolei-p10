@@ -35,6 +35,10 @@ Route::get('/stdctt', function () {
     return view('stdContactUs');
 });
 
+Route::get('/stdpra', function () {
+    return view('stdPractice');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
