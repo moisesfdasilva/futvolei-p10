@@ -39,6 +39,10 @@ Route::get('/stdpra', function () {
     return view('stdPractice');
 });
 
+Route::get('/stdcha', function () {
+    return view('stdChampionship');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
