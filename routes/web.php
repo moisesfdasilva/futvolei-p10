@@ -43,6 +43,10 @@ Route::get('/stdcha', function () {
     return view('stdChampionship');
 });
 
+Route::get('/stdrnt', function () {
+    return view('stdRent');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
